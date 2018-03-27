@@ -7,7 +7,7 @@
 #include <iostream>
 #include "nnls.h"
 #include <fstream>
-#include <QElapsedTimer>
+
 #include  <numeric>
 
 
@@ -22,8 +22,6 @@ ReducedCubatureTrainingOptimization::~ReducedCubatureTrainingOptimization()
 
 void ReducedCubatureTrainingOptimization::trainingData()
 {
-	QElapsedTimer timer;
-	timer.start();
 
 	int numParitions = cubaturePartition->getNumPartition();
 	int numVertex = volumetricMesh->getNumVertices();
@@ -39,7 +37,7 @@ void ReducedCubatureTrainingOptimization::trainingData()
 	}
 
 	mergeCubaturePoints();
-	std::cout << "training time: " << timer.elapsed() <<" ms"<< std::endl;
+
 }
 
 void ReducedCubatureTrainingOptimization::checkError(double* pose)
