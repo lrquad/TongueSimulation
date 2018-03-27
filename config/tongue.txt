@@ -1,0 +1,30 @@
+readobj 3dmodel/tongue_tuned_v3.obj
+moveobj 0 0 0
+alpha 0.5
+#collision
+smoothshading
+#transparent
+
+hyperElasticTongue 0 
+simulator_name isotropicHyperElastic
+timestep 0.01
+gravity 0
+dampingMassCoef 0.1
+dampingStiffnessCoef 0.1
+collisionRatio 100
+dampingRatio 100
+youngmodulus 6000
+density 0.8
+poisson 0.40
+newtonIteration 1
+uniformVolumMesh 1
+base_end
+
+load data/ElementMesh/tongue_tuned_v3.1
+constraints data/Constraint/tonguev3.txt
+cubatures_data data/CubatureData/tonguev3.txt
+
+end
+#end
+
+setSelectedIndex 0
