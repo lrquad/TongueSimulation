@@ -13,8 +13,18 @@ while(true)
 ```
 
 ### Prerequisites
-Boost 1.61.0 library 
-Your own render library
+* Boost 1.61.0 library 
+* Qt 5.5
+* Your own render library
+
+### Installing
+* Install Qt and visual studio 2015.
+* Create qt empty project in visual studio.
+* Add folder src to your project.
+* Add include folder to "additional include path".
+* You need compiled boost library first.
+
+
 
 ### Generate Subspace Modes
 ```
