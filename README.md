@@ -16,6 +16,7 @@ while(true)
 * Boost 1.61.0 library 
 * Qt 5.5
 * Eigen (Already included in ./include)
+* MKL
 
 ### Installing
 * Install Qt and visual studio 2015.
