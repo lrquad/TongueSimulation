@@ -1,0 +1,619 @@
+﻿  Moc'ing TongueQT.h...
+  Rcc'ing TongueQT.qrc...
+  Uic'ing TongueQT.ui...
+  RCC: Warning: No resources in 'D:\MyCode\TongueQT\TongueQT\TongueQT.qrc'.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of matrixPCA.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Functions\matrixPCA.cpp, src\Vega\libraries\matrix\matrixPCA.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of tiny_obj_loader.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\ObjLoader\newVersion\tiny_obj_loader.cc, src\ObjLoader\oldVersion\tiny_obj_loader.cc, src\ObjLoader\tiny_obj_loader.cc.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of ARPACKSolver.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Simulator\ARPACKSolver.cpp, src\Vega\libraries\sparseSolver\ARPACKSolver.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of STVKForceModel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Simulator\ForceModel\STVKForceModel.cpp, src\Vega\libraries\elasticForceModel\StVKForceModel.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of ReducedForceModel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Simulator\ReducedForceModel\ReducedForceModel.cpp, src\Vega\libraries\reducedForceModel\reducedForceModel.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of ReducedSTVKForceModel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Simulator\ReducedForceModel\ReducedSTVKForceModel.cpp, src\Vega\libraries\reducedElasticForceModel\reducedStVKForceModel.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of quaternion.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Vega\libraries\glui\glui-2.35\src\quaternion.cpp, src\Vega\libraries\quaternion\quaternion.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of example.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Vega\libraries\matrix\example.cpp, src\Vega\libraries\quaternion\example.cpp, src\Vega\libraries\rigidBodyDynamics\example.cpp, src\Vega\libraries\sparseMatrix\example.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of polarDecomposition.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Vega\libraries\polarDecomposition\polarDecomposition.cpp, src\Vega\polarDecomposition.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of polarDecompositionGradient.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Vega\libraries\polarDecomposition\polarDecompositionGradient.cpp, src\Vega\polarDecompositionGradient.cpp.
+  main.cpp
+  Colortable.cpp
+  CubatureDataSet.cpp
+  CubatureDomainPartition.cpp
+  CubatureModel.cpp
+  CubatureOnePartition.cpp
+  CubaturePartition.cpp
+  CubatureTraining.cpp
+  ReducedCubatureDataSet.cpp
+  ReducedCubatureDataSet2.cpp
+  ReducedCubatureTraining.cpp
+  ReducedCubatureTrainingOptimization.cpp
+  ReducedCubatureTrainingOptimization2.cpp
+  computeBFSVolumetricMesh.cpp
+  DomainDecomposition.cpp
+  computeSVDMatrix3d.cpp
+  computeTriangle.cpp
+  converCharToVector.cpp
+  EulerAngelRotationMatrix.cpp
+  GeoMatrix.cpp
+  LagrangeBasis.cpp
+  MaterialOperation.cpp
+  matrixNormalizeVector.cpp
+  matrixPCA.cpp
+  Quadrature.cpp
+  SkewMatrix.cpp
+  BlockwiseSparseJacobiSolver.cpp
+  jacobi_solver.cc
+  SparseJacobiSolver.cpp
+  sparse_matrix.cc
+  Vector.cc
+  SparseMatrixAddConstrain.cpp
+d:\mycode\tongueqt\tongueqt\src\domaindecomposition\DomainDecomposition.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\DomainDecomposition\DomainDecomposition.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\solver\SparseJacobiSolver.h(2): fatal error C1083: Cannot open include file: 'Eigen/Sparse': No such file or directory (compiling source file src\Functions\solver\SparseJacobiSolver.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\Quadrature.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\Quadrature.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\GeoMatrix.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\GeoMatrix.cpp)
+d:\mycode\tongueqt\tongueqt\src\colortable\Colortable.h(21): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion (compiling source file src\ColorTable\Colortable.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureDataSet.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\CubatureDataSet.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\LagrangeBasis.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\LagrangeBasis.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureDataSet.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\ReducedCubatureDataSet.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\EulerAngelRotationMatrix.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\EulerAngelRotationMatrix.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureDataSet.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\ReducedCubatureDataSet2.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\MaterialOperation.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\MaterialOperation.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureTraining.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\CubatureTraining.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureTraining.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\ReducedCubatureTraining.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureTraining.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\ReducedCubatureTrainingOptimization.cpp)
+  VectorOperation.cpp
+  WavMFCC.cpp
+d:\mycode\tongueqt\tongueqt\src\functions\SparseMatrixAddConstrain.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\SparseMatrixAddConstrain.cpp)
+  DenseIntegratorBase.cpp
+d:\mycode\tongueqt\tongueqt\src\functions\SkewMatrix.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\SkewMatrix.cpp)
+  ImpicitNewMarkDenseIntegrator.cpp
+  ImplicitBackwardEulerSparseIntegrator.cpp
+d:\mycode\tongueqt\tongueqt\src\functions\matrixPCA.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\matrixPCA.cpp)
+d:\mycode\tongueqt\tongueqt\src\domaindecomposition\computeBFSVolumetricMesh.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh\LoboVolumetricMesh.h': No such file or directory (compiling source file src\DomainDecomposition\computeBFSVolumetricMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\computeTriangle.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\computeTriangle.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\matrixNormalizeVector.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\matrixNormalizeVector.cpp)
+d:\mycode\tongueqt\tongueqt\src\functions\computeSVDMatrix3d.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\computeSVDMatrix3d.cpp)
+d:\mycode\tongueqt\tongueqt\src\cubature\CubatureTraining.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\cubature\ReducedCubatureTrainingOptimization2.cpp)
+  ImplicitModalWarpingIntegrator.cpp
+d:\mycode\tongueqt\tongueqt\src\functions\solver\SparseJacobiSolver.h(2): fatal error C1083: Cannot open include file: 'Eigen/Sparse': No such file or directory (compiling source file src\Functions\solver\BlockwiseSparseJacobiSolver.cpp)
+  ImplicitNewMarkDNNIntegrator.cpp
+  ImplicitNewMatkSparseIntegrator.cpp
+  ImplicitNMDenseModifiedIntegrator.cpp
+  LoboIntegrator.cpp
+  SparseIntegratorBase.cpp
+  LoboFunctions.cpp
+  ActivationLayer.cpp
+  BatchNormlizeLayer.cpp
+  FullConnectLayer.cpp
+  LoboNeuralLayer.cpp
+  LoboNeuralNetwork.cpp
+  LoboTriMesh.cpp
+  TinyObjMeshControl.cpp
+  CubeElement.cpp
+  CubeNodeMap.cpp
+  CubeVolumtricMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\functions\VectorOperation.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Functions\VectorOperation.cpp)
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\ImpicitNewMarkDenseIntegrator.cpp)
+d:\mycode\tongueqt\tongueqt\src\htkinterface\WavMFCC.h(2): fatal error C1083: Cannot open include file: 'HTK/HShell.h': No such file or directory (compiling source file src\HTKInterface\WavMFCC.cpp)
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\DenseIntegratorBase.cpp)
+  ENuMaterial.cpp
+  LoboVolumetricMeshGraph.cpp
+  LoboElement.cpp
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\ImplicitNewMarkDNNIntegrator.cpp)
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\ImplicitBackwardEulerSparseIntegrator.cpp)
+  LoboNodeBase.cpp
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\ImplicitModalWarpingIntegrator.cpp)
+  LoboVolumetricMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\integrator\ImplicitNMDenseModifiedIntegrator.h(2): fatal error C1083: Cannot open include file: 'Integrator/ImpicitNewMarkDenseIntegrator.h': No such file or directory (compiling source file src\Integrator\ImplicitNMDenseModifiedIntegrator.cpp)
+d:\mycode\tongueqt\tongueqt\src\loboneuralnetwork\layer\BatchNormlizeLayer.h(2): fatal error C1083: Cannot open include file: 'LoboNeuralNetwork/Layer/LoboNeuralLayer.h': No such file or directory (compiling source file src\LoboNeuralNetwork\Layer\BatchNormlizeLayer.cpp)
+  LoboVolumetricMeshObjAdapter.cpp
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\ImplicitNewMatkSparseIntegrator.cpp)
+  LoboVolumetricMeshTriMeshAdapter.cpp
+d:\mycode\tongueqt\tongueqt\src\loboneuralnetwork\layer\FullConnectLayer.h(2): fatal error C1083: Cannot open include file: 'LoboNeuralNetwork/Layer/LoboNeuralLayer.h': No such file or directory (compiling source file src\LoboNeuralNetwork\Layer\FullConnectLayer.cpp)
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\LoboIntegrator.cpp)
+  TetElement.cpp
+d:\mycode\tongueqt\tongueqt\src\loboneuralnetwork\layer\ActivationLayer.h(2): fatal error C1083: Cannot open include file: 'LoboNeuralNetwork/Layer/LoboNeuralLayer.h': No such file or directory (compiling source file src\LoboNeuralNetwork\Layer\ActivationLayer.cpp)
+d:\mycode\tongueqt\tongueqt\src\lobotrimesh\LoboTriMesh.h(2): fatal error C1083: Cannot open include file: 'ObjLoader/tiny_obj_loader.h': No such file or directory (compiling source file src\LoboTriMesh\LoboTriMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\loboneuralnetwork\layer\LoboNeuralLayer.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboNeuralNetwork\Layer\LoboNeuralLayer.cpp)
+d:\mycode\tongueqt\tongueqt\src\loboneuralnetwork\LoboNeuralNetwork.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboNeuralNetwork\LoboNeuralNetwork.cpp)
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\CubeNodeMap.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\CubeNodeMap.cpp)
+d:\mycode\tongueqt\tongueqt\src\lobotrimesh\TinyObjMeshControl.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboTriMesh\TinyObjMeshControl.cpp)
+d:\mycode\tongueqt\tongueqt\src\integrator\LoboIntegrator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Integrator\SparseIntegratorBase.cpp)
+  TetVolumetricMesh.cpp
+  tiny_obj_loader.cc
+  tiny_obj_loader.cc
+  tiny_obj_loader.cc
+  PointsCloud.cpp
+  SubspaceModalDerivativesModule.cpp
+  SubspaceModesCreator.cpp
+  SubspaceModuleBase.cpp
+  LoboObjMesh.cpp
+  LoboScene.cpp
+  MouseProjection.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\ENuMaterial.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetricMesh.h': No such file or directory (compiling source file src\LoboVolumetricMesh\ENuMaterial.cpp)
+  ARPACKSolver.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\graph\LoboVolumetricMeshGraph.h(2): fatal error C1083: Cannot open include file: 'boost/graph/graph_traits.hpp': No such file or directory (compiling source file src\LoboVolumetricMesh\Graph\LoboVolumetricMeshGraph.cpp)
+  IsotropicHyperlasticForceModel.cpp
+  LinearSTVKForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboNodeBase.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\LoboNodeBase.cpp)
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMeshObjAdapter.h(2): fatal error C1083: Cannot open include file: 'Eigen/Sparse': No such file or directory (compiling source file src\LoboVolumetricMesh\LoboVolumetricMeshObjAdapter.cpp)
+  LoboForceModel.cpp
+  LoboReducedForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMeshObjAdapter.h(2): fatal error C1083: Cannot open include file: 'Eigen/Sparse': No such file or directory (compiling source file src\LoboVolumetricMesh\LoboVolumetricMeshTriMeshAdapter.cpp)
+  STVKForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\reduced\modalderivtives\SubspaceModalDerivativesModule.h(2): fatal error C1083: Cannot open include file: 'Reduced/SubspaceModule/SubspaceModuleBase.h': No such file or directory (compiling source file src\Reduced\Modalderivtives\SubspaceModalDerivativesModule.cpp)
+d:\mycode\tongueqt\tongueqt\src\reduced\SubspaceModesCreator.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Reduced\SubspaceModesCreator.cpp)
+d:\mycode\tongueqt\tongueqt\src\render\MouseProjection.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Render\MouseProjection.cpp)
+d:\mycode\tongueqt\tongueqt\src\reduced\subspacemodule\SubspaceModuleBase.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Reduced\SubspaceModule\SubspaceModuleBase.cpp)
+  isotropicHyperelasticModel.cpp
+  LoboIsotropicHyperelasticWithCompressionResistance.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\forcemodel\LoboForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ForceModel\IsotropicHyperlasticForceModel.cpp)
+  LoboIsotropicMaterial.cpp
+  LoboneoHookeanIsotropicMaterial.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\forcemodel\LoboForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ForceModel\LinearSTVKForceModel.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\forcemodel\LoboReducedForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ForceModel\LoboReducedForceModel.cpp)
+  LoboStVKIsotropicMaterial.cpp
+  ReducedForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\forcemodel\LoboForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ForceModel\LoboForceModel.cpp)
+  ReducedSTVKForceModel.cpp
+  ReducedSubspaceForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\forcemodel\LoboForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ForceModel\STVKForceModel.cpp)
+  ReducedModesCoefficients.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\isotropichyperelasticfem\isotropicHyperelasticModel.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetriceMeshCore.h': No such file or directory (compiling source file src\Simulator\IsotropicHyperelasticFEM\isotropicHyperelasticModel.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedforcemodel\ReducedForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ReducedForceModel\ReducedSTVKForceModel.cpp)
+  ReducedSTVKModel.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedforcemodel\ReducedForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ReducedForceModel\ReducedSubspaceForceModel.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedforcemodel\ReducedForceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ReducedForceModel\ReducedForceModel.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\isotropichyperelasticfem\LoboneoHookeanIsotropicMaterial.h(3): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetriceMeshCore.h': No such file or directory (compiling source file src\Simulator\IsotropicHyperelasticFEM\LoboneoHookeanIsotropicMaterial.cpp)
+  ReducedSTVKModelCubature.cpp
+  ReducedSubspaceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\isotropichyperelasticfem\LoboStVKIsotropicMaterial.h(3): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetriceMeshCore.h': No such file or directory (compiling source file src\Simulator\IsotropicHyperelasticFEM\LoboStVKIsotropicMaterial.cpp)
+  LoboSimpleSimulator.cpp
+  LoboSimulatorBase.cpp
+  simulatorRenderBase.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedstvk\ReducedModesCoefficients.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ReducedSTVK\ReducedModesCoefficients.cpp)
+  InvertibleSTVKModel.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedstvk\ReducedSTVKModel.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetricMesh.h': No such file or directory (compiling source file src\Simulator\ReducedSTVK\ReducedSTVKModel.cpp)
+  STVKModel.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedsubspacemodel\ReducedSubspaceModel.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ReducedSubspaceModel\ReducedSubspaceModel.cpp)
+  STVKModelElementMatrix.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\reducedstvk\ReducedSTVKModel.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetricMesh.h': No such file or directory (compiling source file src\Simulator\ReducedSTVK\ReducedSTVKModelCubature.cpp)
+  HyperelasticTongueSimulator.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\simulatorbase\loboSimulatorBase.h(2): fatal error C1083: Cannot open include file: 'Render/LoboObjMesh.h': No such file or directory (compiling source file src\Simulator\simulatorBase\LoboSimulatorBase.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\simulatorbase\LoboSimpleSimulator.h(2): fatal error C1083: Cannot open include file: 'Simulator/simulatorBase/LoboSimulatorBase.h': No such file or directory (compiling source file src\Simulator\simulatorBase\LoboSimpleSimulator.cpp)
+  TongueModel.cpp
+  WaveTongueMode.cpp
+  SparseMatrixRemoveRows.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\stvk\InvertibleSTVKModel.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetricMesh.h': No such file or directory (compiling source file src\Simulator\STVK\InvertibleSTVKModel.cpp)
+src\cubature\CubatureDomainPartition.cpp(2): fatal error C1083: Cannot open include file: 'DomainDecomposition/DomainDecomposition.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\simulator\tonguesimulator\HyperelasticTongueSimulator.h(2): fatal error C1083: Cannot open include file: 'Simulator/simulatorBase/LoboSimulatorBase.h': No such file or directory (compiling source file src\Simulator\TongueSimulator\HyperelasticTongueSimulator.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\stvk\STVKModel.h(2): fatal error C1083: Cannot open include file: 'LoboVolumetricMesh/LoboVolumetricMesh.h': No such file or directory (compiling source file src\Simulator\STVK\STVKModel.cpp)
+  SparseMatrixTopology.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\stvk\STVKModelElementMatrix.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\STVK\STVKModelElementMatrix.cpp)
+src\Simulator\TongueSimulator\TongueModel.cpp(1): fatal error C1083: Cannot open include file: 'Functions/spline.h': No such file or directory
+  camera.cpp
+  clothBW.cpp
+src\Simulator\TongueSimulator\WaveTongueMode.cpp(1): fatal error C1083: Cannot open include file: 'HTKInterface/WavMFCC.h': No such file or directory
+  clothBWFromObjMesh.cpp
+  clothBWMT.cpp
+  configFile.cpp
+  corotationalLinearFEM.cpp
+src\cubature\CubaturePartition.cpp(2): fatal error C1083: Cannot open include file: 'DomainDecomposition/DomainDecomposition.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\sparsematrix\SparseMatrixRemoveRows.h(2): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\SparseMatrix\SparseMatrixRemoveRows.cpp)
+  corotationalLinearFEMMT.cpp
+src\cubature\CubatureOnePartition.cpp(2): fatal error C1083: Cannot open include file: 'DomainDecomposition/DomainDecomposition.h': No such file or directory
+  clothBWForceModel.cpp
+  corotationalLinearFEMForceModel.cpp
+src\Vega\libraries\clothBW\clothBWFromObjMesh.cpp(29): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory
+  isotropicHyperelasticFEMForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMesh.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\CubeElement.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\elasticforcemodel\clothBWForceModel.h(36): fatal error C1083: Cannot open include file: 'clothBW.h': No such file or directory (compiling source file src\Vega\libraries\elasticForceModel\clothBWForceModel.cpp)
+  linearFEMForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMesh.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\LoboElement.cpp)
+  massSpringSystemForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\elasticforcemodel\corotationalLinearFEMForceModel.h(36): fatal error C1083: Cannot open include file: 'corotationalLinearFEM.h': No such file or directory (compiling source file src\Vega\libraries\elasticForceModel\corotationalLinearFEMForceModel.cpp)
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMesh.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\CubeVolumtricMesh.cpp)
+  StVKForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\elasticforcemodel\isotropicHyperelasticFEMForceModel.h(36): fatal error C1083: Cannot open include file: 'Vega/libraries/forceModel/forceModel.h': No such file or directory (compiling source file src\Vega\libraries\elasticForceModel\isotropicHyperelasticFEMForceModel.cpp)
+  forceModel.cpp
+  getopts.cpp
+  glslPhong.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\corotationallinearfem\corotationalLinearFEM.h(49): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory (compiling source file src\Vega\libraries\corotationalLinearFEM\corotationalLinearFEM.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\clothbw\clothBW.h(39): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\clothBW\clothBWMT.cpp)
+  algebra3.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMesh.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\LoboVolumetricMesh.cpp)
+src\Vega\libraries\camera\camera.cpp(47): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  arcball.cpp
+  example1.cpp
+  example2.cpp
+src\Vega\libraries\corotationalLinearFEM\corotationalLinearFEMMT.cpp(33): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\elasticforcemodel\linearFEMForceModel.h(38): fatal error C1083: Cannot open include file: 'StVKInternalForces.h': No such file or directory (compiling source file src\Vega\libraries\elasticForceModel\linearFEMForceModel.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\elasticforcemodel\massSpringSystemForceModel.h(36): fatal error C1083: Cannot open include file: 'massSpringSystem.h': No such file or directory (compiling source file src\Vega\libraries\elasticForceModel\massSpringSystemForceModel.cpp)
+  example3.cpp
+d:\mycode\tongueqt\tongueqt\src\cubature\cubatureCore.h(3): fatal error C1083: Cannot open include file: 'cubature/ReducedCubatureTrainingOptimization.h': No such file or directory (compiling source file src\cubature\CubatureModel.cpp)
+  example4.cpp
+  example5.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\elasticforcemodel\StVKForceModel.h(36): fatal error C1083: Cannot open include file: 'StVKInternalForces.h': No such file or directory (compiling source file src\Vega\libraries\elasticForceModel\StVKForceModel.cpp)
+  example6.cpp
+  glui.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMesh.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\TetElement.cpp)
+d:\mycode\tongueqt\tongueqt\src\pointclouds\PointsCloud.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\PointClouds\PointsCloud.cpp)
+  glui_add_controls.cpp
+  glui_bitmaps.cpp
+src\Vega\libraries\glui\glui-2.35\src\example\example1.cpp(15): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui.cpp)
+src\Vega\libraries\glui\glui-2.35\src\example\example2.cpp(14): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  glui_bitmap_img_data.cpp
+  glui_button.cpp
+  glui_checkbox.cpp
+src\Vega\libraries\glui\glui-2.35\src\glui_add_controls.cpp(35): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+src\Vega\libraries\glui\glui-2.35\src\glui_bitmaps.cpp(38): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  glui_column.cpp
+src\Vega\libraries\glui\glui-2.35\src\example\example3.cpp(15): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+src\Vega\libraries\glslPhong\glslPhong.cpp(46): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+src\Vega\libraries\glui\glui-2.35\src\example\example4.cpp(14): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+src\Vega\libraries\glui\glui-2.35\src\example\example5.cpp(15): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  glui_commandline.cpp
+  glui_control.cpp
+  glui_edittext.cpp
+  glui_filebrowser.cpp
+src\Vega\libraries\getopts\getopts.cpp(81): fatal error C1083: Cannot open include file: 'vegalong.h': No such file or directory
+  glui_list.cpp
+src\Vega\libraries\glui\glui-2.35\src\example\example6.cpp(15): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  glui_listbox.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_button.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_checkbox.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\forcemodel\forceModel.h(38): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\forceModel\forceModel.cpp)
+  glui_mouse_iaction.cpp
+  glui_node.cpp
+  glui_panel.cpp
+  glui_radio.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_column.cpp)
+src\Vega\libraries\glui\glui-2.35\src\glui_commandline.cpp(32): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  glui_rollout.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_edittext.cpp)
+src\Vega\libraries\glui\glui-2.35\src\glui_filebrowser.cpp(19): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_control.cpp)
+  glui_rotation.cpp
+  glui_scrollbar.cpp
+  glui_separator.cpp
+  glui_spinner.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_list.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_listbox.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_mouse_iaction.cpp)
+  glui_statictext.cpp
+  glui_string.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_panel.cpp)
+src\Vega\libraries\glui\glui-2.35\src\glui_node.cpp(32): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_radio.cpp)
+  glui_textbox.cpp
+  glui_translation.cpp
+  glui_tree.cpp
+  glui_treepanel.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_rollout.cpp)
+  glui_window.cpp
+src\Vega\libraries\glui\glui-2.35\src\glui_rotation.cpp(32): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_scrollbar.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_separator.cpp)
+  quaternion.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_spinner.cpp)
+  ppm.cpp
+  ppm2array.cpp
+  viewmodel.cpp
+  graph.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_statictext.cpp)
+src\Vega\libraries\glui\glui-2.35\src\glui_string.cpp(32): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_textbox.cpp)
+  hashTable.cpp
+  imageIO.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\glui\glui-2.35\src\glui_internal_control.h(11): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory (compiling source file src\Vega\libraries\glui\glui-2.35\src\glui_tree.cpp)
+src\Vega\libraries\glui\glui-2.35\src\glui_translation.cpp(32): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  insertRows.cpp
+src\Vega\libraries\glui\glui-2.35\src\glui_treepanel.cpp(1): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  centralDifferencesDense.cpp
+d:\mycode\tongueqt\tongueqt\src\LoboFunctions.h(8): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboFunctions.cpp)
+src\Vega\libraries\glui\glui-2.35\src\glui_window.cpp(27): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  implicitBackwardEulerDense.cpp
+  implicitNewmarkDense.cpp
+  implicitNewmarkDenseMulti1D.cpp
+  integratorBaseDense.cpp
+d:\mycode\tongueqt\tongueqt\src\sparsematrix\SparseMatrixTopology.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\SparseMatrix\SparseMatrixTopology.cpp)
+  integratorMulti1D.cpp
+  centralDifferencesSparse.cpp
+d:\mycode\tongueqt\tongueqt\src\simulator\ARPACKSolver.h(42): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\Simulator\ARPACKSolver.cpp)
+src\Vega\libraries\integratorDense\integratorBaseDense.cpp(29): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  eulerSparse.cpp
+  implicitBackwardEulerSparse.cpp
+d:\mycode\tongueqt\tongueqt\src\lobovolumetricmesh\LoboVolumetricMesh.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory (compiling source file src\LoboVolumetricMesh\TetVolumetricMesh.cpp)
+  implicitNewmarkSparse.cpp
+src\Vega\libraries\graph\graph.cpp(33): fatal error C1083: Cannot open include file: 'matrixIO.h': No such file or directory
+  integratorBaseSparse.cpp
+src\Vega\libraries\glui\glui-2.35\src\viewmodel.cpp(36): fatal error C1083: Cannot open include file: 'GL/glui.h': No such file or directory
+  getIntegratorSolver.cpp
+src\Vega\libraries\integratorDense\implicitNewmarkDense.cpp(31): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+src\Vega\libraries\imageIO\imageIO.cpp(67): fatal error C1083: Cannot open include file: 'vegalong.h': No such file or directory
+src\Vega\libraries\integratorDense\implicitBackwardEulerDense.cpp(31): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  integratorBase.cpp
+  homogeneousMooneyRivlinIsotropicMaterial.cpp
+  homogeneousNeoHookeanIsotropicMaterial.cpp
+src\Vega\libraries\integratorDense\integratorMulti1D.cpp(31): fatal error C1083: Cannot open include file: 'matrix.h': No such file or directory
+  homogeneousStVKIsotropicMaterial.cpp
+src\Vega\libraries\integratorDense\implicitNewmarkDenseMulti1D.cpp(32): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+src\Vega\libraries\integratorDense\centralDifferencesDense.cpp(34): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  isotropicHyperelasticFEM.cpp
+  isotropicHyperelasticFEMMT.cpp
+  isotropicMaterial.cpp
+  isotropicMaterialWithCompressionResistance.cpp
+  MooneyRivlinIsotropicMaterial.cpp
+  neoHookeanIsotropicMaterial.cpp
+  StVKIsotropicMaterial.cpp
+src\Vega\libraries\integratorSparse\centralDifferencesSparse.cpp(34): fatal error C1083: Cannot open include file: 'performanceCounter.h': No such file or directory
+src\Vega\libraries\integratorSparse\implicitBackwardEulerSparse.cpp(37): fatal error C1083: Cannot open include file: 'matrixIO.h': No such file or directory
+src\Vega\libraries\integratorSparse\eulerSparse.cpp(32): fatal error C1083: Cannot open include file: 'matrixIO.h': No such file or directory
+  lighting.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\isotropichyperelasticfem\homogeneousStVKIsotropicMaterial.h(33): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory (compiling source file src\Vega\libraries\isotropicHyperelasticFEM\homogeneousStVKIsotropicMaterial.cpp)
+  loadList.cpp
+  massSpringSystem.cpp
+  massSpringSystemFromCubicMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\isotropichyperelasticfem\isotropicHyperelasticFEM.h(33): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory (compiling source file src\Vega\libraries\isotropicHyperelasticFEM\isotropicHyperelasticFEM.cpp)
+  massSpringSystemFromCubicMeshConfigFile.cpp
+src\Vega\libraries\integratorSparse\implicitNewmarkSparse.cpp(32): fatal error C1083: Cannot open include file: 'matrixIO.h': No such file or directory
+  massSpringSystemFromObjMesh.cpp
+  massSpringSystemFromObjMeshConfigFile.cpp
+  massSpringSystemFromTetMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\integratorsparse\integratorBaseSparse.h(39): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\integratorSparse\integratorBaseSparse.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\isotropichyperelasticfem\neoHookeanIsotropicMaterial.h(32): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory (compiling source file src\Vega\libraries\isotropicHyperelasticFEM\neoHookeanIsotropicMaterial.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\isotropichyperelasticfem\MooneyRivlinIsotropicMaterial.h(33): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory (compiling source file src\Vega\libraries\isotropicHyperelasticFEM\MooneyRivlinIsotropicMaterial.cpp)
+  massSpringSystemFromTetMeshConfigFile.cpp
+  massSpringSystemMT.cpp
+  renderSprings.cpp
+  matrixIO.cpp
+  multiMatrixIO.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\clothbw\clothBW.h(39): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\clothBW\clothBW.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\isotropichyperelasticfem\StVKIsotropicMaterial.h(33): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory (compiling source file src\Vega\libraries\isotropicHyperelasticFEM\StVKIsotropicMaterial.cpp)
+src\Vega\libraries\massSpringSystem\massSpringSystemFromCubicMesh.cpp(30): fatal error C1083: Cannot open include file: 'cubicMesh.h': No such file or directory
+src\Vega\libraries\massSpringSystem\massSpringSystemFromCubicMeshConfigFile.cpp(30): fatal error C1083: Cannot open include file: 'cubicMesh.h': No such file or directory
+  example.cpp
+  matrix.cpp
+  matrixBLAS.cpp
+src\Vega\libraries\isotropicHyperelasticFEM\isotropicHyperelasticFEMMT.cpp(33): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+  matrixBLASOptimized.cpp
+  matrixBLASVanilla.cpp
+src\Vega\libraries\massSpringSystem\massSpringSystemFromObjMesh.cpp(30): fatal error C1083: Cannot open include file: 'objMesh.h': No such file or directory
+src\Vega\libraries\massSpringSystem\massSpringSystemFromTetMesh.cpp(30): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory
+src\Vega\libraries\massSpringSystem\massSpringSystemFromObjMeshConfigFile.cpp(30): fatal error C1083: Cannot open include file: 'objMesh.h': No such file or directory
+src\Vega\libraries\massSpringSystem\renderSprings.cpp(30): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  matrixExp.cpp
+  matrixLAPACK.cpp
+  matrixPCA.cpp
+  matrixProjection.cpp
+  eig3.cpp
+src\Vega\libraries\massSpringSystem\massSpringSystemFromTetMeshConfigFile.cpp(30): fatal error C1083: Cannot open include file: 'tetMesh.h': No such file or directory
+  mat3d.cpp
+src\Vega\libraries\lighting\lighting.cpp(33): fatal error C1083: Cannot open include file: 'configFile.h': No such file or directory
+  vec2d.cpp
+src\Vega\libraries\matrix\matrixBLASOptimized.cpp(24): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+src\Vega\libraries\matrix\matrixBLASVanilla.cpp(24): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+  vec3d.cpp
+src\Vega\libraries\matrix\matrixBLAS.cpp(24): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+  modalMatrix.cpp
+  modalMatrixTransposed.cpp
+src\Vega\libraries\matrixIO\matrixIO.cpp(122): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'std::size_t'
+  src\Vega\libraries\matrixIO\matrixIO.cpp(122): note: consider using '%zu' in the format string
+  src\Vega\libraries\matrixIO\matrixIO.cpp(805): note: see reference to function template instantiation 'int ReadMatrixFromStream<double>(FILE *,int,int,double *)' being compiled
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\matrix\matrixPCA.h(35): fatal error C1083: Cannot open include file: 'matrixIO.h': No such file or directory (compiling source file src\Vega\libraries\matrix\matrixPCA.cpp)
+  coarseToFine-shaders.cpp
+src\Vega\libraries\massSpringSystem\massSpringSystemMT.cpp(34): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+  objMeshGPUDeformer.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\matrix\matrix.h(52): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory (compiling source file src\Vega\libraries\matrix\example.cpp)
+  objMeshGPUDeformer_coarseToFine.cpp
+  objMeshGPUDeformer_coarseToFine_fbo.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\matrix\matrix.h(52): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory (compiling source file src\Vega\libraries\matrix\matrix.cpp)
+  objMeshGPUDeformer_uUq.cpp
+  objMeshGPUDeformer_uUq_fbo.cpp
+  objMeshGPUDeformer_uUq_pbuffer.cpp
+src\Vega\libraries\modalMatrix\modalMatrix.cpp(31): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  objMeshGPUDeformer_uUq_setLighting.cpp
+  uUq-shaders.cpp
+src\Vega\libraries\matrix\matrixExp.cpp(28): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+src\Vega\libraries\matrix\matrixProjection.cpp(31): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+src\Vega\libraries\matrix\matrixLAPACK.cpp(28): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  vbo.cpp
+  boundingBox.cpp
+  objMesh-disjointSet.cpp
+  objMesh.cpp
+  objMeshBinaryLoader.cpp
+src\Vega\libraries\modalMatrix\modalMatrixTransposed.cpp(34): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  objMeshClose.cpp
+  objMeshEncode.cpp
+src\Vega\libraries\objMesh\boundingBox.cpp(32): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer_coarseToFine.cpp(35): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  objMeshGraph.cpp
+  objMeshOctree.cpp
+  objMeshOffsetVoxels.cpp
+src\Vega\libraries\massSpringSystem\massSpringSystem.cpp(36): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory
+  objMeshOrientable.cpp
+  objMeshRender.cpp
+src\Vega\libraries\objMesh\objMeshOctree.cpp(33): fatal error C1083: Cannot open include file: 'triple.h': No such file or directory
+  octree.cpp
+  simpleSphere.cpp
+  triangle-closestPoint.cpp
+src\Vega\libraries\objMesh\objMeshRender.cpp(36): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  triangle.cpp
+src\Vega\libraries\objMesh\octree.cpp(32): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  tribox3.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\simpleSphere.h(37): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\simpleSphere.cpp)
+  openGLHelper.cpp
+src\Vega\libraries\objMesh\triangle.cpp(40): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  printBitmap.cpp
+  saveScreenShot.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\openglhelper\printBitmap.h(32): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory (compiling source file src\Vega\libraries\openGLHelper\printBitmap.cpp)
+  performanceCounter.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\openglhelper\openGLHelper.h(43): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory (compiling source file src\Vega\libraries\openGLHelper\openGLHelper.cpp)
+  polarDecomposition.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\objMeshGraph.h(14): fatal error C1083: Cannot open include file: 'triple.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\objMeshGraph.cpp)
+src\Vega\libraries\openGLHelper\saveScreenShot.cpp(32): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  polarDecompositionGradient.cpp
+  polarDecompositionGradientDriver.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\objMeshGPUDeformer.h(39): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer_uUq.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\objMeshGPUDeformer.h(39): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer_coarseToFine_fbo.cpp)
+  example.cpp
+  quaternion.cpp
+src\Vega\libraries\polarDecomposition\polarDecomposition.cpp(4): fatal error C1083: Cannot open include file: 'mat3d.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\objMeshGPUDeformer.h(39): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer_uUq_setLighting.cpp)
+  reducedLinearForceModel.cpp
+src\Vega\libraries\polarDecomposition\polarDecompositionGradient.cpp(53): fatal error C1083: Cannot open include file: 'matrixMultiplyMacros.h': No such file or directory
+  reducedLinearStVKForceModel.cpp
+  reducedMassSpringSystemForceModel.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\objMeshGPUDeformer.h(39): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer.cpp)
+  reducedMassSpringSystemForceModelWithHessian.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\boundingBox.h(36): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\objMeshOffsetVoxels.cpp)
+  reducedSpringForceModel.cpp
+  reducedStVKForceModel.cpp
+  reducedStVKForceModelWithHessian.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\vbo.h(13): fatal error C1083: Cannot open include file: 'GL/glext.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\vbo.cpp)
+src\Vega\libraries\reducedElasticForceModel\reducedLinearStVKForceModel.cpp(30): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+  reducedSubspaceStVKForceModel.cpp
+src\Vega\libraries\reducedElasticForceModel\reducedMassSpringSystemForceModel.cpp(30): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+  reducedForceModel.cpp
+  reducedForceModelWithHessian.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\objMeshGPUDeformer.h(39): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer_uUq_fbo.cpp)
+  StVKReducedHessianTensor.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmeshgpudeformer\objMeshGPUDeformer.h(39): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\objMeshGPUDeformer\objMeshGPUDeformer_uUq_pbuffer.cpp)
+src\Vega\libraries\objMesh\objMesh.cpp(46): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory
+  StVKReducedInternalForces.cpp
+  StVKReducedInternalForcesMT.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\objMesh.h(41): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\objMeshEncode.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\objMesh.h(41): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\objMeshBinaryLoader.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\reducedelasticforcemodel\reducedStVKForceModelWithHessian.h(38): fatal error C1083: Cannot open include file: 'StVKReducedHessianTensor.h': No such file or directory (compiling source file src\Vega\libraries\reducedElasticForceModel\reducedStVKForceModelWithHessian.cpp)
+  StVKReducedInternalForcesMultiLoad.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\boundingBox.h(36): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\triangle-closestPoint.cpp)
+  StVKReducedStiffnessMatrix.cpp
+  renderVolumetricMesh.cpp
+  example.cpp
+  rigidBody.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\objMesh.h(41): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\objMeshClose.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\reducedelasticforcemodel\reducedSpringForceModel.h(38): fatal error C1083: Cannot open include file: 'reducedForceModelWithHessian.h': No such file or directory (compiling source file src\Vega\libraries\reducedElasticForceModel\reducedSpringForceModel.cpp)
+  rigidBody_generalTensor.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\reducedelasticforcemodel\reducedMassSpringSystemForceModel.h(41): fatal error C1083: Cannot open include file: 'modalMatrix.h': No such file or directory (compiling source file src\Vega\libraries\reducedElasticForceModel\reducedMassSpringSystemForceModelWithHessian.cpp)
+  sceneObjectReduced.cpp
+  sceneObjectReduced6DOF.cpp
+  sceneObjectReducedCPU.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\reducedelasticforcemodel\reducedLinearForceModel.h(44): fatal error C1083: Cannot open include file: 'reducedForceModel.h': No such file or directory (compiling source file src\Vega\libraries\reducedElasticForceModel\reducedLinearForceModel.cpp)
+  sceneObjectReducedCPU6DOF.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\reducedelasticforcemodel\reducedStVKForceModel.h(39): fatal error C1083: Cannot open include file: 'StVKReducedInternalForces.h': No such file or directory (compiling source file src\Vega\libraries\reducedElasticForceModel\reducedStVKForceModel.cpp)
+src\Vega\libraries\reducedElasticForceModel\reducedSubspaceStVKForceModel.cpp(30): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+  sceneObjectReducedGPU.cpp
+  sceneObjectReducedGPU6DOF.cpp
+  sceneObject.cpp
+src\Vega\libraries\reducedStvk\StVKReducedHessianTensor.cpp(29): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  sceneObject6DOF.cpp
+src\Vega\libraries\reducedStvk\StVKReducedInternalForcesMT.cpp(29): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+src\Vega\libraries\reducedStvk\StVKReducedInternalForces.cpp(29): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  sceneObjectDeformable.cpp
+  sceneObjectDeformable6DOF.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\objmesh\objMesh.h(41): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\objMesh\objMeshOrientable.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\reducedstvk\StVKReducedInternalForces.h(47): fatal error C1083: Cannot open include file: 'StVKInternalForces.h': No such file or directory (compiling source file src\Vega\libraries\reducedStvk\StVKReducedInternalForcesMultiLoad.cpp)
+src\Vega\libraries\reducedStvk\StVKReducedStiffnessMatrix.cpp(29): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  sceneObjectDeformableGPU.cpp
+  sceneObjectDeformableGPU6DOF.cpp
+  sceneObjectWithRestPosition.cpp
+src\Vega\libraries\objMesh\tribox3.cpp(33): fatal error C1083: Cannot open include file: 'matrixMultiplyMacros.h': No such file or directory
+  example.cpp
+src\Vega\libraries\renderVolumetricMesh\renderVolumetricMesh.cpp(32): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory
+  sparseMatrix.cpp
+  sparseMatrixMT.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobjectreduced\sceneObjectReduced6DOF.h(32): fatal error C1083: Cannot open include file: 'sceneObject6DOF.h': No such file or directory (compiling source file src\Vega\libraries\sceneObjectReduced\sceneObjectReducedCPU6DOF.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\rigidbodydynamics\rigidBody.h(152): fatal error C1083: Cannot open include file: 'quaternion.h': No such file or directory (compiling source file src\Vega\libraries\rigidBodyDynamics\rigidBody.cpp)
+  ARPACKSolver.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobjectreduced\sceneObjectReduced6DOF.h(32): fatal error C1083: Cannot open include file: 'sceneObject6DOF.h': No such file or directory (compiling source file src\Vega\libraries\sceneObjectReduced\sceneObjectReduced6DOF.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\rigidbodydynamics\rigidBody.h(152): fatal error C1083: Cannot open include file: 'quaternion.h': No such file or directory (compiling source file src\Vega\libraries\rigidBodyDynamics\rigidBody_generalTensor.cpp)
+  CGSolver.cpp
+  invMKSolver.cpp
+src\Vega\libraries\reducedForceModel\reducedForceModelWithHessian.cpp(32): fatal error C1083: Cannot open include file: 'lapack-headers.h': No such file or directory
+  linearSolver.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobjectreduced\sceneObjectReduced6DOF.h(32): fatal error C1083: Cannot open include file: 'sceneObject6DOF.h': No such file or directory (compiling source file src\Vega\libraries\sceneObjectReduced\sceneObjectReducedGPU6DOF.cpp)
+  PardisoSolver.cpp
+  SPOOLESSolver.cpp
+  SPOOLESSolverMT.cpp
+  cubicMeshIntegrals.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\rigidbodydynamics\rigidBody.h(152): fatal error C1083: Cannot open include file: 'quaternion.h': No such file or directory (compiling source file src\Vega\libraries\rigidBodyDynamics\example.cpp)
+  StVKCubeABCD.cpp
+  StVKElementABCD.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObjectDeformableGPU.h(39): fatal error C1083: Cannot open include file: 'lighting.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObjectDeformableGPU6DOF.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObjectDeformableGPU.h(39): fatal error C1083: Cannot open include file: 'lighting.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObjectDeformableGPU.cpp)
+  StVKElementABCDLoader.cpp
+  StVKHessianTensor.cpp
+  StVKInternalForces.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobjectreduced\sceneObjectReduced.h(37): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory (compiling source file src\Vega\libraries\sceneObjectReduced\sceneObjectReduced.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobjectreduced\sceneObjectReduced.h(37): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory (compiling source file src\Vega\libraries\sceneObjectReduced\sceneObjectReducedCPU.cpp)
+  StVKInternalForcesMT.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObject.h(37): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObjectWithRestPosition.cpp)
+  StVKStiffnessMatrix.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobjectreduced\sceneObjectReduced.h(37): fatal error C1083: Cannot open include file: 'macros.h': No such file or directory (compiling source file src\Vega\libraries\sceneObjectReduced\sceneObjectReducedGPU.cpp)
+  StVKStiffnessMatrixMT.cpp
+  StVKTetABCD.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObject.h(37): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObject.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObject.h(37): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObject6DOF.cpp)
+  StVKTetHighMemoryABCD.cpp
+  uniqueIntegerID.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKElementABCD.h(32): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKCubeABCD.cpp)
+  computeStiffnessMatrixNullspace.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObjectDeformable.h(37): fatal error C1083: Cannot open include file: 'lighting.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObjectDeformable.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sceneobject\sceneObject.h(37): fatal error C1083: Cannot open include file: 'openGL-headers.h': No such file or directory (compiling source file src\Vega\libraries\sceneObject\sceneObjectDeformable6DOF.cpp)
+  cubicMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKElementABCD.h(32): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKElementABCD.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKElementABCDLoader.h(37): fatal error C1083: Cannot open include file: 'volumetricMesh.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKElementABCDLoader.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKHessianTensor.h(37): fatal error C1083: Cannot open include file: 'triple.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKHessianTensor.cpp)
+  generateInterpolationMatrix.cpp
+  generateMassMatrix.cpp
+  generateMeshGraph.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sparsesolver\SPOOLESSolver.h(52): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\sparseSolver\SPOOLESSolver.cpp)
+  generateSurfaceMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sparsesolver\SPOOLESSolverMT.h(50): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\sparseSolver\SPOOLESSolverMT.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sparsesolver\CGSolver.h(50): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\sparseSolver\CGSolver.cpp)
+  generateTetMeshFromCubicMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sparsesolver\PardisoSolver.h(44): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\sparseSolver\PardisoSolver.cpp)
+  interpolationWeightsMultiLoad.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKInternalForces.h(77): fatal error C1083: Cannot open include file: 'volumetricMesh.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKInternalForces.cpp)
+  tetMesh.cpp
+src\Vega\libraries\stvk\StVKInternalForcesMT.cpp(29): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+  volumetricMesh.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKStiffnessMatrix.h(39): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKStiffnessMatrix.cpp)
+  volumetricMeshDeformationGradient.cpp
+  volumetricMeshENuMaterial.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sparsesolver\invMKSolver.h(38): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\sparseSolver\invMKSolver.cpp)
+  volumetricMeshExtensions.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKElementABCD.h(32): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKTetHighMemoryABCD.cpp)
+  volumetricMeshLoader.cpp
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\stvk\StVKElementABCD.h(32): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\stvk\StVKTetABCD.cpp)
+src\Vega\libraries\stvk\StVKStiffnessMatrixMT.cpp(29): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+  volumetricMeshMooneyRivlinMaterial.cpp
+  volumetricMeshOrthotropicMaterial.cpp
+  volumetricMeshParser.cpp
+  polarDecomposition.cpp
+src\Vega\libraries\volumetricMesh\computeStiffnessMatrixNullspace.cpp(35): fatal error C1083: Cannot open include file: 'matrixMacros.h': No such file or directory
+src\Vega\libraries\volumetricMesh\generateSurfaceMesh.cpp(30): fatal error C1083: Cannot open include file: 'objMesh.h': No such file or directory
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\generateInterpolationMatrix.h(32): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\generateInterpolationMatrix.cpp)
+  polarDecompositionGradient.cpp
+  TongueQT.cpp
+  qrc_TongueQT.cpp
+src\Vega\libraries\volumetricMesh\volumetricMeshDeformationGradient.cpp(2): fatal error C1083: Cannot open include file: 'mat3d.h': No such file or directory
+src\Vega\polarDecompositionGradient.cpp(54): fatal error C1083: Cannot open include file: 'mat3d.h': No such file or directory
+src\Vega\polarDecomposition.cpp(4): fatal error C1083: Cannot open include file: 'mat3d.h': No such file or directory
+D:\MyCode\TongueQT\TongueQT\src\ObjLoader\tiny_obj_loader.cc : fatal error C1083: Cannot open compiler generated file: 'D:\MyCode\TongueQT\TongueQT\x64\Debug\tiny_obj_loader.obj': Permission denied
+src\Vega\libraries\sparseMatrix\example.cpp(36): fatal error C1083: Cannot open include file: 'CGSolver.h': No such file or directory
+D:\MyCode\TongueQT\TongueQT\src\ObjLoader\oldVersion\tiny_obj_loader.cc : fatal error C1083: Cannot open compiler generated file: 'D:\MyCode\TongueQT\TongueQT\x64\Debug\tiny_obj_loader.obj': Permission denied
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\sparsesolver\ARPACKSolver.h(37): fatal error C1083: Cannot open include file: 'sparseMatrix.h': No such file or directory (compiling source file src\Vega\libraries\sparseSolver\ARPACKSolver.cpp)
+d:\mycode\tongueqt\tongueqt\src\render\LoboObjMesh.h(7): fatal error C1083: Cannot open include file: 'ObjLoader/tiny_obj_loader.h': No such file or directory (compiling source file src\Render\LoboScene.cpp)
+d:\mycode\tongueqt\tongueqt\src\render\LoboObjMesh.h(7): fatal error C1083: Cannot open include file: 'ObjLoader/tiny_obj_loader.h': No such file or directory (compiling source file src\Render\LoboObjMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\generateTetMeshFromCubicMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\generateMeshGraph.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\cubicMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\generateMassMatrix.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\tetMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\interpolationWeightsMultiLoad.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\volumetricMeshLoader.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\volumetricMeshOrthotropicMaterial.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\volumetricMesh.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\volumetricMeshENuMaterial.cpp)
+d:\mycode\tongueqt\tongueqt\src\vega\libraries\volumetricmesh\volumetricMesh.h(56): fatal error C1083: Cannot open include file: 'minivector.h': No such file or directory (compiling source file src\Vega\libraries\volumetricMesh\volumetricMeshMooneyRivlinMaterial.cpp)
+d:\mycode\tongueqt\tongueqt\src\simulator\simulatorbase\LoboSimulatorBase.h(2): fatal error C1083: Cannot open include file: 'Render/LoboObjMesh.h': No such file or directory (compiling source file src\Simulator\simulatorBase\simulatorRenderBase.cpp)
+cl : Command line error D8040: error creating or communicating with child process

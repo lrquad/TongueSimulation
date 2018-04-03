@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtOpenGLExtensions;$(QTDIR)\include\QtWidgets;./include;./src;./src/bullet3-2.83.7/src;./include/bosst_1_61_0;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\mkl\include;$(ProjectDir)\src\Vega\libraries\graph;$(ProjectDir)\src\Vega\libraries\minivector;$(ProjectDir)\src\Vega\libraries\sparseMatrix;$(ProjectDir)\src\Vega\libraries\matrixIO;$(ProjectDir)\src\Vega\libraries\include;$(ProjectDir)\src\Vega\libraries\volumetricMesh;$(ProjectDir)\src\Vega;.\include\coldet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Windows</SubSystem>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\mkl\lib\intel64_win;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\compiler\lib\intel64_win;$(ProjectDir)\lib;$(ProjectDir)\include\ARPACK;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateDebugInformation>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Multimedia.lib;Qt5MultimediaWidgets.lib;Qt5OpenGL.lib;opengl32.lib;glu32.lib;Qt5OpenGLExtensions.lib;Qt5Widgets.lib;mkl_blacs_ilp64_dll.lib;mkl_intel_thread.lib;mkl_core.lib;mkl_rt.lib;ozcollide.lib;BulletCollision.lib;BulletDynamics.lib;LinearMath.lib;libcoldet.lib;arpack_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(FullPath)</InputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">output</DynamicSource>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtOpenGLExtensions;$(QTDIR)\include\QtWidgets;.\include;.\src;.\src\bullet3-2.83.7\src;.\include\bosst_1_61_0;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\mkl\include;$(ProjectDir)\src\Vega\libraries\graph;$(ProjectDir)\src\Vega\libraries\minivector;$(ProjectDir)\src\Vega\libraries\sparseMatrix;$(ProjectDir)\src\Vega\libraries\matrixIO;$(ProjectDir)\src\Vega\libraries\include;$(ProjectDir)\src\Vega\libraries\volumetricMesh;$(ProjectDir)\src\Vega;.\include\coldet\src</IncludePath>
+      <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_WIDGETS_LIB</Define>
+      <QTDIR Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)</QTDIR>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtOpenGLExtensions;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Multimediad.lib;Qt5MultimediaWidgetsd.lib;Qt5OpenGLd.lib;opengl32.lib;glu32.lib;Qt5OpenGLExtensionsd.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtMultimedia;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtOpenGLExtensions;$(QTDIR)\include\QtWidgets</IncludePath>
+      <Define>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIA_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_OPENGL_LIB;QT_OPENGLEXTENSIONS_LIB;QT_WIDGETS_LIB</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\ColorTable\Colortable.cpp" />
+    <ClCompile Include="src\cubature\CubatureDataSet.cpp" />
+    <ClCompile Include="src\cubature\CubatureDomainPartition.cpp" />
+    <ClCompile Include="src\cubature\CubatureModel.cpp" />
+    <ClCompile Include="src\cubature\CubatureOnePartition.cpp" />
+    <ClCompile Include="src\cubature\CubaturePartition.cpp" />
+    <ClCompile Include="src\cubature\CubatureTraining.cpp" />
+    <ClCompile Include="src\cubature\ReducedCubatureDataSet.cpp" />
+    <ClCompile Include="src\cubature\ReducedCubatureTraining.cpp" />
+    <ClCompile Include="src\cubature\ReducedCubatureTrainingOptimization.cpp" />
+    <ClCompile Include="src\DomainDecomposition\computeBFSVolumetricMesh.cpp" />
+    <ClCompile Include="src\DomainDecomposition\DomainDecomposition.cpp" />
+    <ClCompile Include="src\Functions\computeSVDMatrix3d.cpp" />
+    <ClCompile Include="src\Functions\computeTriangle.cpp" />
+    <ClCompile Include="src\Functions\converCharToVector.cpp" />
+    <ClCompile Include="src\Functions\EulerAngelRotationMatrix.cpp" />
+    <ClCompile Include="src\Functions\GeoMatrix.cpp" />
+    <ClCompile Include="src\Functions\LagrangeBasis.cpp" />
+    <ClCompile Include="src\Functions\MaterialOperation.cpp" />
+    <ClCompile Include="src\Functions\matrixNormalizeVector.cpp" />
+    <ClCompile Include="src\Functions\matrixPCA.cpp" />
+    <ClCompile Include="src\Functions\Quadrature.cpp" />
+    <ClCompile Include="src\Functions\SkewMatrix.cpp" />
+    <ClCompile Include="src\Functions\solver\BlockwiseSparseJacobiSolver.cpp" />
+    <ClCompile Include="src\Functions\solver\jacobi_solver.cc" />
+    <ClCompile Include="src\Functions\solver\SparseJacobiSolver.cpp" />
+    <ClCompile Include="src\Functions\solver\sparse_matrix.cc" />
+    <ClCompile Include="src\Functions\solver\Vector.cc" />
+    <ClCompile Include="src\Functions\SparseMatrixAddConstrain.cpp" />
+    <ClCompile Include="src\Functions\VectorOperation.cpp" />
+    <ClCompile Include="src\HTKInterface\WavMFCC.cpp" />
+    <ClCompile Include="src\HTK\esignal.c" />
+    <ClCompile Include="src\HTK\esig_asc.c" />
+    <ClCompile Include="src\HTK\esig_edr.c" />
+    <ClCompile Include="src\HTK\esig_nat.c" />
+    <ClCompile Include="src\HTK\HAdapt.c" />
+    <ClCompile Include="src\HTK\HArc.c" />
+    <ClCompile Include="src\HTK\HAudio.c" />
+    <ClCompile Include="src\HTK\HDict.c" />
+    <ClCompile Include="src\HTK\HExactMPE.c" />
+    <ClCompile Include="src\HTK\HFB.c" />
+    <ClCompile Include="src\HTK\HFBLat.c" />
+    <ClCompile Include="src\HTK\HLabel.c" />
+    <ClCompile Include="src\HTK\HLat.c" />
+    <ClCompile Include="src\HTK\HLM.c" />
+    <ClCompile Include="src\HTK\HMap.c" />
+    <ClCompile Include="src\HTK\HMath.c" />
+    <ClCompile Include="src\HTK\HMem.c" />
+    <ClCompile Include="src\HTK\HModel.c" />
+    <ClCompile Include="src\HTK\HNet.c" />
+    <ClCompile Include="src\HTK\HParm.c" />
+    <ClCompile Include="src\HTK\HRec.c" />
+    <ClCompile Include="src\HTK\HShell.c" />
+    <ClCompile Include="src\HTK\HSigP.c" />
+    <ClCompile Include="src\HTK\HTrain.c" />
+    <ClCompile Include="src\HTK\HUtil.c" />
+    <ClCompile Include="src\HTK\HVQ.c" />
+    <ClCompile Include="src\HTK\HWave.c" />
+    <ClCompile Include="src\HTK\strarr.c" />
+    <ClCompile Include="src\Integrator\DenseIntegratorBase.cpp" />
+    <ClCompile Include="src\Integrator\ImpicitNewMarkDenseIntegrator.cpp" />
+    <ClCompile Include="src\Integrator\ImplicitBackwardEulerSparseIntegrator.cpp" />
+    <ClCompile Include="src\Integrator\ImplicitNewMatkSparseIntegrator.cpp" />
+    <ClCompile Include="src\Integrator\ImplicitNMDenseModifiedIntegrator.cpp" />
+    <ClCompile Include="src\Integrator\LoboIntegrator.cpp" />
+    <ClCompile Include="src\Integrator\SparseIntegratorBase.cpp" />
+    <ClCompile Include="src\LoboFunctions.cpp" />
+    <ClCompile Include="src\LoboNeuralNetwork\Layer\ActivationLayer.cpp" />
+    <ClCompile Include="src\LoboNeuralNetwork\Layer\BatchNormlizeLayer.cpp" />
+    <ClCompile Include="src\LoboNeuralNetwork\Layer\FullConnectLayer.cpp" />
+    <ClCompile Include="src\LoboNeuralNetwork\Layer\LoboNeuralLayer.cpp" />
+    <ClCompile Include="src\LoboNeuralNetwork\LoboNeuralNetwork.cpp" />
+    <ClCompile Include="src\LoboTriMesh\LoboTriMesh.cpp" />
+    <ClCompile Include="src\LoboTriMesh\TinyObjMeshControl.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\CubeElement.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\CubeNodeMap.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\CubeVolumtricMesh.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\ENuMaterial.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\Graph\LoboVolumetricMeshGraph.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\LoboElement.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\LoboNodeBase.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\LoboVolumetricMesh.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\LoboVolumetricMeshObjAdapter.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\LoboVolumetricMeshTriMeshAdapter.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\TetElement.cpp" />
+    <ClCompile Include="src\LoboVolumetricMesh\TetVolumetricMesh.cpp" />
+    <ClCompile Include="src\ObjLoader\tiny_obj_loader.cc" />
+    <ClCompile Include="src\PointClouds\PointsCloud.cpp" />
+    <ClCompile Include="src\Reduced\Modalderivtives\SubspaceModalDerivativesModule.cpp" />
+    <ClCompile Include="src\Reduced\SubspaceModesCreator.cpp" />
+    <ClCompile Include="src\Reduced\SubspaceModule\SubspaceModuleBase.cpp" />
+    <ClCompile Include="src\Render\LoboObjMesh.cpp" />
+    <ClCompile Include="src\Render\MouseProjection.cpp" />
+    <ClCompile Include="src\Simulator\ARPACKSolver.cpp" />
+    <ClCompile Include="src\Simulator\collision\CollisionDetector.cpp" />
+    <ClCompile Include="src\Simulator\collision\CollisionHandle.cpp" />
+    <ClCompile Include="src\Simulator\collision\CollisionWorld.cpp" />
+    <ClCompile Include="src\Simulator\collision\TriMeshCollisionDetector.cpp" />
+    <ClCompile Include="src\Simulator\ExternalForceGenerator\ExternalForceGenerator.cpp" />
+    <ClCompile Include="src\Simulator\ForceModel\IsotropicHyperlasticForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ForceModel\LinearSTVKForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ForceModel\LoboForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ForceModel\LoboReducedForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ForceModel\STVKForceModel.cpp" />
+    <ClCompile Include="src\Simulator\IsotropicHyperelasticFEM\isotropicHyperelasticModel.cpp" />
+    <ClCompile Include="src\Simulator\IsotropicHyperelasticFEM\LoboIsotropicHyperelasticWithCompressionResistance.cpp" />
+    <ClCompile Include="src\Simulator\IsotropicHyperelasticFEM\LoboIsotropicMaterial.cpp" />
+    <ClCompile Include="src\Simulator\IsotropicHyperelasticFEM\LoboneoHookeanIsotropicMaterial.cpp" />
+    <ClCompile Include="src\Simulator\IsotropicHyperelasticFEM\LoboStVKIsotropicMaterial.cpp" />
+    <ClCompile Include="src\Simulator\PoseDataSet\PoseDataSet.cpp" />
+    <ClCompile Include="src\Simulator\PoseDataSet\ReducedPoseDataSet.cpp" />
+    <ClCompile Include="src\Simulator\ReducedForceModel\ReducedForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ReducedForceModel\ReducedSTVKForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ReducedForceModel\ReducedSubspaceForceModel.cpp" />
+    <ClCompile Include="src\Simulator\ReducedSTVK\ReducedModesCoefficients.cpp" />
+    <ClCompile Include="src\Simulator\ReducedSTVK\ReducedSTVKModel.cpp" />
+    <ClCompile Include="src\Simulator\ReducedSTVK\ReducedSTVKModelCubature.cpp" />
+    <ClCompile Include="src\Simulator\ReducedSubspaceModel\ReducedSubspaceModel.cpp" />
+    <ClCompile Include="src\Simulator\simulatorBase\LoboSimpleSimulator.cpp" />
+    <ClCompile Include="src\Simulator\simulatorBase\LoboSimulatorBase.cpp" />
+    <ClCompile Include="src\Simulator\STVK\InvertibleSTVKModel.cpp" />
+    <ClCompile Include="src\Simulator\STVK\STVKModel.cpp" />
+    <ClCompile Include="src\Simulator\STVK\STVKModelElementMatrix.cpp" />
+    <ClCompile Include="src\Simulator\TongueSimulator\HyperelasticTongueSimulator.cpp" />
+    <ClCompile Include="src\Simulator\TongueSimulator\TongueModel.cpp" />
+    <ClCompile Include="src\Simulator\TongueSimulator\WaveTongueMode.cpp" />
+    <ClCompile Include="src\SparseMatrix\SparseMatrixRemoveRows.cpp" />
+    <ClCompile Include="src\SparseMatrix\SparseMatrixTopology.cpp" />
+    <ClCompile Include="src\Vega\libraries\matrixIO\matrixIO.cpp" />
+    <ClCompile Include="src\Vega\libraries\matrixIO\multiMatrixIO.cpp" />
+    <ClCompile Include="src\Vega\libraries\minivector\eig3.cpp" />
+    <ClCompile Include="src\Vega\libraries\minivector\mat3d.cpp" />
+    <ClCompile Include="src\Vega\libraries\minivector\vec2d.cpp" />
+    <ClCompile Include="src\Vega\libraries\minivector\vec3d.cpp" />
+    <ClCompile Include="src\Vega\libraries\polarDecomposition\polarDecomposition.cpp" />
+    <ClCompile Include="src\Vega\libraries\polarDecomposition\polarDecompositionGradient.cpp" />
+    <ClCompile Include="TongueQT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TongueQT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="TongueQT.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="TongueQT.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_TongueQT.h" />
+    <ClInclude Include="src\ColorTable\Colortable.h" />
+    <ClInclude Include="src\cubature\cubatureCore.h" />
+    <ClInclude Include="src\cubature\CubatureDataSet.h" />
+    <ClInclude Include="src\cubature\CubatureDomainPartition.h" />
+    <ClInclude Include="src\cubature\CubatureModel.h" />
+    <ClInclude Include="src\cubature\CubatureOnePartition.h" />
+    <ClInclude Include="src\cubature\CubaturePartition.h" />
+    <ClInclude Include="src\cubature\CubatureTraining.h" />
+    <ClInclude Include="src\cubature\ReducedCubatureDataSet.h" />
+    <ClInclude Include="src\cubature\ReducedCubatureTraining.h" />
+    <ClInclude Include="src\cubature\ReducedCubatureTrainingOptimization.h" />
+    <ClInclude Include="src\DomainDecomposition\computeBFSVolumetricMesh.h" />
+    <ClInclude Include="src\DomainDecomposition\DomainDecomposition.h" />
+    <ClInclude Include="src\EigenMatrixIO\EigenMatrixIO.h" />
+    <ClInclude Include="src\Functions\computeSVDMatrix3d.h" />
+    <ClInclude Include="src\Functions\computeTriangle.h" />
+    <ClInclude Include="src\Functions\converCharToVector.h" />
+    <ClInclude Include="src\Functions\deleteSTDvector.h" />
+    <ClInclude Include="src\Functions\EulerAngelRotationMatrix.h" />
+    <ClInclude Include="src\Functions\findElementInVector.h" />
+    <ClInclude Include="src\Functions\GeoMatrix.h" />
+    <ClInclude Include="src\Functions\LagrangeBasis.h" />
+    <ClInclude Include="src\Functions\LoboDefine.h" />
+    <ClInclude Include="src\Functions\MaterialOperation.h" />
+    <ClInclude Include="src\Functions\matrixNormalizeVector.h" />
+    <ClInclude Include="src\Functions\matrixPCA.h" />
+    <ClInclude Include="src\Functions\PolarDecomposition.h" />
+    <ClInclude Include="src\Functions\Quadrature.h" />
+    <ClInclude Include="src\Functions\SampleSphereVector.h" />
+    <ClInclude Include="src\Functions\SkewMatrix.h" />
+    <ClInclude Include="src\Functions\solver\BlockwiseSparseJacobiSolver.h" />
+    <ClInclude Include="src\Functions\solver\jacobi_solver.h" />
+    <ClInclude Include="src\Functions\solver\math_functions.h" />
+    <ClInclude Include="src\Functions\solver\SparseJacobiSolver.h" />
+    <ClInclude Include="src\Functions\solver\sparse_matrix.h" />
+    <ClInclude Include="src\Functions\solver\Vector.h" />
+    <ClInclude Include="src\Functions\sortSTDElement.h" />
+    <ClInclude Include="src\Functions\SparseMatrixAddConstrain.h" />
+    <ClInclude Include="src\Functions\spline.h" />
+    <ClInclude Include="src\Functions\VectorOperation.h" />
+    <ClInclude Include="src\HTKInterface\WavMFCC.h" />
+    <ClInclude Include="src\HTK\esignal.h" />
+    <ClInclude Include="src\HTK\HAdapt.h" />
+    <ClInclude Include="src\HTK\HArc.h" />
+    <ClInclude Include="src\HTK\HAudio.h" />
+    <ClInclude Include="src\HTK\HDict.h" />
+    <ClInclude Include="src\HTK\HExactMPE.h" />
+    <ClInclude Include="src\HTK\HFB.h" />
+    <ClInclude Include="src\HTK\HFBLat.h" />
+    <ClInclude Include="src\HTK\HLabel.h" />
+    <ClInclude Include="src\HTK\HLat.h" />
+    <ClInclude Include="src\HTK\HLM.h" />
+    <ClInclude Include="src\HTK\HMap.h" />
+    <ClInclude Include="src\HTK\HMath.h" />
+    <ClInclude Include="src\HTK\HMem.h" />
+    <ClInclude Include="src\HTK\HModel.h" />
+    <ClInclude Include="src\HTK\HNet.h" />
+    <ClInclude Include="src\HTK\HParm.h" />
+    <ClInclude Include="src\HTK\HRec.h" />
+    <ClInclude Include="src\HTK\HShell.h" />
+    <ClInclude Include="src\HTK\HSigP.h" />
+    <ClInclude Include="src\HTK\HTrain.h" />
+    <ClInclude Include="src\HTK\HUtil.h" />
+    <ClInclude Include="src\HTK\HVQ.h" />
+    <ClInclude Include="src\HTK\HWave.h" />
+    <ClInclude Include="src\HTK\strarr.h" />
+    <ClInclude Include="src\Integrator\DenseIntegratorBase.h" />
+    <ClInclude Include="src\Integrator\ImpicitNewMarkDenseIntegrator.h" />
+    <ClInclude Include="src\Integrator\ImplicitBackwardEulerSparseIntegrator.h" />
+    <ClInclude Include="src\Integrator\ImplicitNewMatkSparseIntegrator.h" />
+    <ClInclude Include="src\Integrator\ImplicitNMDenseModifiedIntegrator.h" />
+    <ClInclude Include="src\Integrator\LoboIntegrator.h" />
+    <ClInclude Include="src\Integrator\SparseIntegratorBase.h" />
+    <ClInclude Include="src\LoboFunctions.h" />
+    <ClInclude Include="src\LoboNeuralNetwork\Layer\ActivationLayer.h" />
+    <ClInclude Include="src\LoboNeuralNetwork\Layer\BatchNormlizeLayer.h" />
+    <ClInclude Include="src\LoboNeuralNetwork\Layer\FullConnectLayer.h" />
+    <ClInclude Include="src\LoboNeuralNetwork\Layer\LoboLayersCore.h" />
+    <ClInclude Include="src\LoboNeuralNetwork\Layer\LoboNeuralLayer.h" />
+    <ClInclude Include="src\LoboNeuralNetwork\LoboNeuralNetwork.h" />
+    <ClInclude Include="src\LoboTriMesh\LoboTriMesh.h" />
+    <ClInclude Include="src\LoboTriMesh\LoboTriMeshH.h" />
+    <ClInclude Include="src\LoboTriMesh\TinyObjMeshControl.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\CubeElement.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\CubeNodeMap.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\CubeVolumtricMesh.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\ENuMaterial.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\Graph\LoboVolumetricMeshGraph.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\LoboElement.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\LoboNodeBase.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\LoboVolumetriceMeshCore.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\LoboVolumetricMesh.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\LoboVolumetricMeshObjAdapter.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\LoboVolumetricMeshTriMeshAdapter.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\TetElement.h" />
+    <ClInclude Include="src\LoboVolumetricMesh\TetVolumetricMesh.h" />
+    <ClInclude Include="src\nnls.h" />
+    <ClInclude Include="src\ObjLoader\tiny_obj_loader.h" />
+    <ClInclude Include="src\PointClouds\PointsCloud.h" />
+    <ClInclude Include="src\Reduced\Modalderivtives\SubspaceModalDerivativesModule.h" />
+    <ClInclude Include="src\Reduced\SubspaceModesCreator.h" />
+    <ClInclude Include="src\Reduced\SubspaceModule\SubspaceModuleBase.h" />
+    <ClInclude Include="src\Render\LoboObjMesh.h" />
+    <ClInclude Include="src\Render\MouseProjection.h" />
+    <ClInclude Include="src\Simulator\ARPACKSolver.h" />
+    <ClInclude Include="src\Simulator\collision\CollisionDetector.h" />
+    <ClInclude Include="src\Simulator\collision\CollisionHandle.h" />
+    <ClInclude Include="src\Simulator\collision\CollisionWorld.h" />
+    <ClInclude Include="src\Simulator\collision\TriMeshCollisionDetector.h" />
+    <ClInclude Include="src\Simulator\ExternalForceGenerator\ExternalForceGenerator.h" />
+    <ClInclude Include="src\Simulator\ForceModel\IsotropicHyperlasticForceModel.h" />
+    <ClInclude Include="src\Simulator\ForceModel\LinearSTVKForceModel.h" />
+    <ClInclude Include="src\Simulator\ForceModel\LoboForceModel.h" />
+    <ClInclude Include="src\Simulator\ForceModel\LoboReducedForceModel.h" />
+    <ClInclude Include="src\Simulator\ForceModel\STVKForceModel.h" />
+    <ClInclude Include="src\Simulator\IsotropicHyperelasticFEM\isotropicHyperelasticCore.h" />
+    <ClInclude Include="src\Simulator\IsotropicHyperelasticFEM\isotropicHyperelasticModel.h" />
+    <ClInclude Include="src\Simulator\IsotropicHyperelasticFEM\LoboIsotropicHyperelasticWithCompressionResistance.h" />
+    <ClInclude Include="src\Simulator\IsotropicHyperelasticFEM\LoboIsotropicMaterial.h" />
+    <ClInclude Include="src\Simulator\IsotropicHyperelasticFEM\LoboneoHookeanIsotropicMaterial.h" />
+    <ClInclude Include="src\Simulator\IsotropicHyperelasticFEM\LoboStVKIsotropicMaterial.h" />
+    <ClInclude Include="src\Simulator\PoseDataSet\PoseDataSet.h" />
+    <ClInclude Include="src\Simulator\PoseDataSet\ReducedPoseDataSet.h" />
+    <ClInclude Include="src\Simulator\ReducedForceModel\ReducedForceModel.h" />
+    <ClInclude Include="src\Simulator\ReducedForceModel\ReducedSTVKForceModel.h" />
+    <ClInclude Include="src\Simulator\ReducedForceModel\ReducedSubspaceForceModel.h" />
+    <ClInclude Include="src\Simulator\ReducedSTVK\ReducedModesCoefficients.h" />
+    <ClInclude Include="src\Simulator\ReducedSTVK\ReducedSTVKModel.h" />
+    <ClInclude Include="src\Simulator\ReducedSTVK\ReducedSTVKModelCubature.h" />
+    <ClInclude Include="src\Simulator\ReducedSubspaceModel\ReducedSubspaceModel.h" />
+    <ClInclude Include="src\Simulator\simulatorBase\LoboSimpleSimulator.h" />
+    <ClInclude Include="src\Simulator\simulatorBase\LoboSimulatorBase.h" />
+    <ClInclude Include="src\Simulator\STVK\InvertibleSTVKModel.h" />
+    <ClInclude Include="src\Simulator\STVK\STVKModel.h" />
+    <ClInclude Include="src\Simulator\STVK\STVKModelElementMatrix.h" />
+    <ClInclude Include="src\Simulator\TongueSimulator\HyperelasticTongueSimulator.h" />
+    <ClInclude Include="src\Simulator\TongueSimulator\TongueModel.h" />
+    <ClInclude Include="src\Simulator\TongueSimulator\WaveTongueMode.h" />
+    <ClInclude Include="src\SparseMatrix\SparseMatrixGetMaxAbsEntry.h" />
+    <ClInclude Include="src\SparseMatrix\SparseMatrixRemoveRows.h" />
+    <ClInclude Include="src\SparseMatrix\SparseMatrixTopology.h" />
+    <ClInclude Include="src\Vega\libraries\matrixIO\matrixIO.h" />
+    <ClInclude Include="src\Vega\libraries\matrixIO\matrixMacros.h" />
+    <ClInclude Include="src\Vega\libraries\matrixIO\multiMatrixIO.h" />
+    <ClInclude Include="src\Vega\libraries\minivector\eig3.h" />
+    <ClInclude Include="src\Vega\libraries\minivector\mat3d.h" />
+    <ClInclude Include="src\Vega\libraries\minivector\minivector.h" />
+    <ClInclude Include="src\Vega\libraries\minivector\vec2d.h" />
+    <ClInclude Include="src\Vega\libraries\minivector\vec3d.h" />
+    <ClInclude Include="src\Vega\libraries\polarDecomposition\polarDecomposition.h" />
+    <ClInclude Include="src\Vega\libraries\polarDecomposition\polarDecompositionGradient.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="msvc2015_64" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
